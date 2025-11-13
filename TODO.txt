@@ -1,0 +1,17 @@
+BareBones Requirement
+- Fix Main
+- Fix Game
+- Fix Physics 
+    - Object2d
+        - add physics option
+    - Remove the crap of "downFactor" and sus in PhysicsRect
+    - Apply F = ma and physics knowlegde
+- Refactor helpdraw.js
+
+- Refactor engine
+
+Further ideas
+- load all scripts with a single js
+- Hooke's Law springs
+
+ai not continous feedback?

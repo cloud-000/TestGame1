@@ -1,0 +1,68 @@
+<!--https://sile.github.io/pixcil/ up right down left urdl Ugly Rats Don’t Like-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attentively Listening</title>
+	<style>
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: black;
+}
+
+canvas {
+	position: absolute;
+	background: black;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	outline: none;
+	border: none;
+}
+	</style>
+</head>
+<body>
+<canvas></canvas>
+
+<!-- Config -->
+<script src="config.js"></script>
+
+<!-- Bare -->
+<script src="helpDraw.js"></script>
+
+<!-- UI Support  -->
+<script src="engine/HTMLAid/UI.js"></script>
+
+<!-- Universal -->
+<script src="engine/Physics/Object2d.js"></script>
+<script src="engine/State.js"></script>
+<script src="engine/Camera.js"></script>
+<script src="engine/Scene.js"></script>
+
+<!-- Physics -->
+<script src="engine/Physics/Rect.js"></script>
+<script src="engine/Physics/PhysicsRect.js"></script>
+
+<!-- Sprites -->
+<script src="engine/Sprites/Spritesheet.js"></script>
+<script src="engine/Sprites/SpriteAnimation.js"></script>
+
+<!-- Tiling -->
+<script src="engine/Tiling/Tile.js"></script>
+<script src="engine/Tiling/TileMap.js"></script>
+<script src="engine/Tiling/TileSorter.js"></script>
+<script src="engine/Tiling/slopeTile.js"></script>
+<script src="engine/Tiling/diagonalTileSorter.js"></script>
+
+<!-- Controls -->
+<script src="engine/Controls/Controls.js"></script>
+<script src="engine/Controls/Movement2dControls.js"></script>
+
+<!-- Init -->
+<script src="engine/init/Main.js"></script>
+<script src="engine/init/Game.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
